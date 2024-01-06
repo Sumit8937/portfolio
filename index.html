@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 30px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(230, 230, 250);
+        }
+
+
+        .leftsection {
+            font-size: 1.5rem;
+        }
+
+        .First {
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0;
+            align-items: normal;
+        }
+
+        .First>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            margin: 70px 0;
+            font-size: 3rem;
+        }
+
+        .rightsection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+
+        .verticle-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+
+        }
+
+        .thirdsec {
+            padding-left: 25px;
+            font-style: initial;
+
+        }
+
+        
+        @media screen and (max-width: 1000px) {
+            body {
+                font-size: 14px;
+            }
+
+            nav {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            nav ul {
+                flex-direction: row;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 0 10px;
+            }
+
+            nav ul li {
+                display: block;
+            }
+
+            .First {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .First>div {
+                width: 100%;
+                font-size: 2rem;
+            }
+
+            .rightsection img {
+                max-width: 100%;
+            }
+
+            nav ul li:nth-child(3) a {
+                color: white;
+            }
+
+            
+            @media screen and (max-width: 1000px) {
+                body {
+                    font-size: 14px;
+                }
+
+                nav {
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                nav ul {
+                    flex-direction: row;
+                    align-items: center;
+                }
+
+                nav ul li {
+                    margin: 0 10px;
+                }
+
+                nav ul li {
+                    display: block;
+                }
+
+                .First {
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                }
+
+                .First>div {
+                    width: 100%;
+                    font-size: 2rem;
+                }
+
+                .rightsection img {
+                    max-width: 100%;
+                }
+
+                nav ul li:nth-child(3) a {
+                    color: white;
+                }
+
+                .secondsection .box {
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .secondsection {
+                    max-width: 100%;
+                    margin: auto;
+                    height: 280vh;
+                }
+
+                .secondsection .vertical {
+                    height: auto;
+                    width: 100%;
+                    background-color: transparent;
+                    margin: 0;
+                    margin-bottom: 20px;
+                }
+
+                .secondsection .content {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 80vw;
+                    margin: 0 auto;
+                    padding: 20px;
+                }
+                .image-top{
+                    width: 23px;
+            position: relative;
+            top: 72px;
+            left: -9px;
+            
+                }
+
+                .verticle-desc {
+                    font-size: 14px;
+                    margin-bottom: 14px;
+                    text-align: center;
+                   
+                    
+                }
+                
+
+                .vertical-title {
+                    font-size: 1rem;
+                    text-align: center;
+                    
+                  
+
+                    .thirdsec {
+                        margin-top: 56px;
+                        font-size: 1.5rem;
+                        padding-right: 20px;
+                    }
+                }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Shaharsh Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/About.html">About</a></li>
+                    <li><a href="/queries.html">Queris</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="First">
+            <div class="leftsection">
+                HI my Name is <span class="purple">Shaharsh</span>
+                <div>and I am a Student</div>
+            </div>
+            <span id="element"></span>
+            <div class="rightsection"><img src="https://cdn-icons-png.flaticon.com/512/6840/6840478.png" alt=""></div>
+        </section>
+        <hr>
+        <section class="secondsection"><br>
+            <span class="text-gray">What I Have Done So Far</span>
+            <h1>Work experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://w7.pngwing.com/pngs/51/881/png-transparent-programmer-source-code-computer-computer-computer-program-computer-programming-thumbnail.png"
+                        alt="">
+                    <div class="vertical-title">Front End Developer(in present )</div>
+                    <div class="verticle-desc">currently i am learning web development and i have some knowledege about
+                        html css and java langugae. I am working on my project just like making my portfolio and making
+                        some other website and i believe that i will do my best</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://e7.pngegg.com/pngimages/405/749/png-clipart-company-service-data-entry-clerk-business-consultant-business-people-business-thumbnail.png"
+                        alt="">
+                    <div class="vertical-title">Data entry operator</div>
+                    <div class="verticle-desc">I have some knowledge about ms excel and word and i have done internship
+                        with Cosmo Connect as a Data Entry operator. I know how to manage sheets and how to calculate
+                        the overall value and another function of ms excel</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://e7.pngegg.com/pngimages/622/762/png-clipart-english-%E8%8B%B1%E4%BC%9A%E8%A9%B1-counseling-logo-counseling-blue-text-thumbnail.png"
+                        alt="">
+                    <div class="vertical-title">Tele Counselor</div>
+                    <div class="verticle-desc">"With a rich background in telecounseling, I have successfully
+                        contributed my expertise to renowned platforms such as Indian Mart and Testbook. At Indian Mart,
+                        I refined my communication skills, engaging with clients to navigate diverse products and
+                        services. As a freelance telecounselor with Testbook, I adeptly addressed the unique needs of a
+                        varied clientele in the educational sector. My commitment to personalized approaches, proven
+                        results, and adaptability has consistently delivered value. I offer insights into market trends
+                        and tailored educational guidance, reflecting my dedication to empowering individuals in their
+                        respective domains."</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="https://pacewalk.com/wp-content/uploads/2020/09/content-writing.png"
+                        alt="">
+                    <div class="vertical-title">Content Writer</div>
+                    <div class="verticle-desc">Accomplished content creator and blogger with a proven track record in
+                        crafting engaging, informative, and SEO-optimized content. Experienced in diverse topics,
+                        ensuring audience resonance and brand visibility.</div>
+                </div>
+            </div>
+        </section>
+        <hr><br>
+        <section class="thirdsec">
+            <h1><i><u></u>Thank you for visiting my site </i></h1><br><br>
+
+
+
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Welcome to my website'],
+            typeSpeed: 25,
+
+        });
+    </script>
+</body>
+
+</html>
